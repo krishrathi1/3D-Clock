@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background: #111;
+  color: rgb(7, 8, 7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.circle-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+.center-year {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(180, 199, 180);
+}
+
+.month, .date {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.month {
+  background: #222;
+  font-size: 0.8rem;
+}
+
+.date {
+  background: #333;
+  font-size: 0.9rem;
+}
+
+.active {
+  background: rgb(230, 238, 230);
+  color: rgb(117, 32, 32);
+  font-weight: bold;
+  transform: scale(1.2) translate(-50%, -50%);
+  z-index: 10;
+}
+
+.time {
+  font-size: 3rem;
+  padding: 15px 30px;
+  background: #0a0a0a;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(105, 224, 105);
+  color: white; /* Set time text to white */
+}
