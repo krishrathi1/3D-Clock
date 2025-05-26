@@ -1,4 +1,4 @@
-#3D-Clock
+3D-Clock
 
 A visually appealing **Year-Month-Date Clock** built with HTML, CSS, and JavaScript. This clock displays the current year in the center, months arranged in a circular layout, and dates in an outer circular layout. The current month and date are highlighted dynamically, along with a live digital time display.
 
